@@ -1,0 +1,71 @@
+.main {
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  color: aliceblue;
+  font-weight: 600;
+
+  .header {
+    text-align: center;
+    margin: 40px 0;
+  }
+
+  .LMain {
+    margin: 40px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    > div {
+      cursor: pointer;
+      width: 24%;
+      margin-bottom: 10px;
+
+      :first-child {
+
+        > img {
+          width: 100%;
+        }
+      }
+
+      :last-child {
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        //font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        position: relative;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+
+  .LPagination {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+    > div > button {
+      background-color: #ffffff;
+      border: none;
+      color: #36454f;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer;
+      border-radius: 8px;
+      font-size: 16px;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    > div > select {
+      padding: 15px 32px;
+      border-radius: 8px;
+      font-size: 16px;
+      font-family: 'Open Sans', sans-serif;
+    }
+  }
+}

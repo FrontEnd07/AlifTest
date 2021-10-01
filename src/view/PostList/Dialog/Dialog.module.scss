@@ -1,0 +1,14 @@
+.main {
+  padding: 40px;
+  font-size: 14px;
+  color: #36454F;
+  display: flex;
+  //font-family: 'Open Sans', sans-serif;
+
+  > :last-child {
+    max-width: 300px;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    display: flex;
+  }
+}

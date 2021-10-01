@@ -1,0 +1,28 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+@font-face {
+    font-family: 'Gilroy Ultra Light';
+    src: url('@fonts/Gilroy-UltraLight.eot');
+    src: url('@fonts/Gilroy-UltraLight.eot?#iefix') format('embedded-opentype'),
+    url('@fonts/Gilroy-UltraLight.woff') format('woff'),
+    url('@fonts/Gilroy-UltraLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'Gilroy Ultra Light';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #36454F;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
